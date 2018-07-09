@@ -5,7 +5,6 @@
   width="400px">
 </div>
 
-# embed-vidy-android-example (OFFLINE ONLY)
 
 ## Prerequisites
 * Android SDK v17
