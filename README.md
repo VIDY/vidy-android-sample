@@ -1,3 +1,10 @@
+<div align="center">
+<img
+  src="https://i.imgur.com/oUoXCAW.png"
+  title="iOS Sample VIDY SDK"
+  width="400px">
+</div>
+
 # embed-vidy-android-example (OFFLINE ONLY)
 
 ## Prerequisites
@@ -21,8 +28,8 @@ The Vidy SDK is an android library that injects Vidy's into an android Applicati
 ### OFFLINE
 
 This offline version of the SDK allows for integration without the publisher dashboard. Changes are local to the app and do not integrate with the backend. It is a proof of concept of how Vidy embeds will work. To embed Vidys, you only need to provide matching strings from a TextView and the embeds will be placed in the first occurrence of the string.
- 
-## Steps to use 
+
+## Steps to use
 
 ### 1. Initialize App Id (OFFLINE SDK: Any ID)
 Set the Application ID in a custom `Application`, `Activity`, or `Fragment`. This only needs to be called one time.
@@ -31,7 +38,7 @@ VidySdk.setApplicationId("APPLICATION_ID");
 ```
 
 ### 2. Embed Vidy's search
-The Vidy SDK can be integrated into an `Activity`, `Fragment`, `ViewGroup`, or `TextView`. 
+The Vidy SDK can be integrated into an `Activity`, `Fragment`, `ViewGroup`, or `TextView`.
 #### Activity
 ##### List of Strings
 ```
@@ -89,7 +96,7 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
 public View onCreateView(LayoutInflater inflater, ViewGroup container,
                          Bundle savedInstanceState) {
     view = inflater.inflate(R.layout.fragment_layout, container, false);
-    
+
     String[] embedStrings = new String[4];
     embedStrings[0]="Nibh mauris cursus mattis molestie a.";
     embedStrings[1]="vitae tempus quam pellentesque";
@@ -143,7 +150,7 @@ protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_layout);
     TextView textView = findViewById(R.id.textView);
-    
+
     List<String> embedStrings = new ArrayList<>();
     embedStrings.add("Nibh mauris cursus mattis molestie a.");
     embedStrings.add("vitae tempus quam pellentesque");
@@ -160,7 +167,7 @@ protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_layout);
     TextView textView = findViewById(R.id.textView);
-    
+
     String[] embedStrings = new String[4];
     embedStrings[0]="Nibh mauris cursus mattis molestie a.";
     embedStrings[1]="vitae tempus quam pellentesque";
@@ -177,4 +184,3 @@ This is an example of what the Vidy SDK can do. The SDK will highlight the text 
 #### Social Modal
 If a user swipes up while holding, they will be taken to the Social Vidy screen.<br /><br />
 <img src="doc/social.png" width="256">
-
