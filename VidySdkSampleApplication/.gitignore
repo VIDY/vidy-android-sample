@@ -1,0 +1,15 @@
+# Frequently changing local Android Studio files
+**/*.iml
+**/.gradle
+**/.idea
+
+# Intermediate build fiels
+**/build
+**/captures
+**/.externalNativeBuild
+
+# Local files
+**/local.properties
+
+# Other tool / operating system cruft
+**/.DS_Store

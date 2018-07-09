@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VidySdkSampleApplication</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin gravida hendrerit lectus a. Nibh mauris cursus mattis molestie a. Tristique senectus et netus et. Dui accumsan sit amet nulla facilisi. Justo laoreet sit amet cursus. Tellus rutrum tellus pellentesque eu tincidunt tortor. Vitae elementum curabitur vitae nunc sed velit dignissim sodales. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Placerat orci nulla pellentesque dignissim enim sit amet venenatis. Interdum velit euismod in pellentesque massa placerat duis. Erat velit scelerisque in dictum non consectetur a. Sit amet tellus cras adipiscing enim. Mi eget mauris pharetra et ultrices neque ornare. Sagittis vitae et leo duis ut diam quam nulla. Senectus et netus et malesuada fames ac turpis egestas maecenas. Egestas quis ipsum suspendisse ultrices gravida dictum. In vitae turpis massa sed elementum.\n\n
+
+Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Integer malesuada nunc vel risus commodo viverra. Augue interdum velit euismod in pellentesque massa placerat. Sed risus pretium quam vulputate dignissim suspendisse in. Semper eget duis at tellus at urna condimentum mattis pellentesque. Augue neque gravida in fermentum et sollicitudin. Erat pellentesque adipiscing commodo elit at. Odio ut enim blandit volutpat maecenas volutpat blandit. Eu augue ut lectus arcu bibendum at varius. Netus et malesuada fames ac turpis egestas sed. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Vitae congue mauris rhoncus aenean vel elit.</string>
+</resources>

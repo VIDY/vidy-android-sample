@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.vidy.sdk.sample"
+        minSdkVersion 17
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+
+    implementation 'com.vidy.sdk:vidysdk:0.0.2'
+}
+
+repositories {
+    maven { url  "https://vidy.bintray.com/maven" }
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+}
