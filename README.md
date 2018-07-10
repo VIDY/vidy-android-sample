@@ -1,4 +1,4 @@
-	<div align="center">
+<div align="center">
 <img
   src="https://i.imgur.com/oUoXCAW.png"
   title="iOS Sample VIDY SDK"
