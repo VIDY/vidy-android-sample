@@ -9,6 +9,11 @@
 ## Prerequisites
 * Android SDK v17
 
+#### Permissions
+The Vidy SDK requires the Internet permission. Add the following line to your `AndroidManifest.xml` file.
+```
+<uses-permission android:name="android.permission.INTERNET" />
+```
 #### Gradle
 Include the following repositories in your `build.gradle` file.
 ```
@@ -17,9 +22,10 @@ repositories {
     maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
 }
 ```
-Include the Vidy SDK<br />
-
-`implementation 'com.vidy.sdk:vidysdk:0.0.2'`
+Include the Vidy SDK.
+```
+implementation 'com.vidy.sdk:vidysdk:0.0.2'
+```
 ## Summary
 
 The Vidy SDK is an android library that injects Vidy's into an android Application. The beauty of the SDK is that it's minimal by design. No custom views required. It works by leveraging TextView's ability to use spannable strings to mark up the text and also adds the Vidy layer. For all intents and purposes, a developer only needs to register their API key and reference the post ID. In an instant, your app will be updated with the Vidys configured in the Publisher dashboard. When the Vidy SDK is initialized, unbeknownst to the user, the SDK is working to precache videos and prepare the Vidy modals. As far as they know, nothing within the app has changed but in actuality, they are being presented with Vidy's revolutionary minimalistic approach to advertising. No longer will users be inundated with gaudy advertisements. Their experience will be seamless, giving power to the user to decide whether or not they want to interact with advertisements.
