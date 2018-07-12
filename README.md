@@ -40,7 +40,6 @@ VidySdk.setApplicationId("APPLICATION_ID");
 ```
 
 ### 2. Embed Vidy's search
-### 2. Embed Vidy's search
 The Vidy SDK can be integrated into an `Activity`, `Fragment`, `ViewGroup`, or `TextView`. 
 #### Activity
 ```
