@@ -20,7 +20,7 @@ public class FullscreenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_fullscreen);
 
         VidySdk.setApplicationId(this, "bd6e3c14-57ad-4d26-b7f2-b92a4c750c19");
-        VidySdk.init(this, "sample");
+        VidySdk.init(this, "samplepost");
     }
 
 
