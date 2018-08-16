@@ -27,7 +27,7 @@ repositories {
 ```
 Include the Vidy SDK.
 ```
-implementation 'com.vidy.sdk:vidysdk:0.0.13'
+implementation 'com.vidy.sdk:vidysdk:0.0.14'
 ```
 
 ## Steps to use
