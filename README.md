@@ -10,7 +10,7 @@
 The Vidy SDK is an Android library that injects Vidy's into an Android Application. 
 
 ## Prerequisites
-* Android SDK v17
+* Android SDK v21
 
 #### Permissions
 The Vidy SDK requires the Internet permission. Add the following line to your `AndroidManifest.xml` file.
@@ -27,7 +27,7 @@ repositories {
 ```
 Include the Vidy SDK.
 ```
-implementation 'com.vidy.sdk:vidysdk:0.0.14'
+implementation 'com.vidy.sdk:vidysdk:0.1.1'
 ```
 
 ## Steps to use
