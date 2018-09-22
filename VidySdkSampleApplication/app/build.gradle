@@ -15,7 +15,7 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support:support-v4:27.1.1'
 
-    implementation 'com.vidy.sdk:vidysdk:0.1.1'
+    implementation 'com.vidy.sdk:vidysdk:0.1.2'
 }
 
 repositories {

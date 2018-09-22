@@ -27,7 +27,7 @@ repositories {
 ```
 Include the Vidy SDK.
 ```
-implementation 'com.vidy.sdk:vidysdk:0.1.1'
+implementation 'com.vidy.sdk:vidysdk:0.1.3'
 ```
 
 ## Steps to use
@@ -80,6 +80,34 @@ protected void onCreate(Bundle savedInstanceState) {
     setContentView(R.layout.activity_layout);
     TextView textView = findViewById(R.id.textView);
     VidySdk.init(this, textView, "POST_ID");
+}
+```
+### 3. Manually update UI
+The SDK requires inflation and changes that occur on the UI thread. This can be manually controlled by adding two parameters to the function. Set `shouldUpdate` to false and provide a `VidyCallback` to notify when the UI is ready to load.
+```
+VidySdk.init(Activity activity, String postId, boolean shouldUpdate, VidyCallback vidyCallback)
+```
+```
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+	super.onCreate(savedInstanceState);
+	setContentView(R.layout.activity_fullscreen);
+
+	VidySdk.setApplicationId(this, "bd6e3c14-57ad-4d26-b7f2-b92a4c750c19");
+	vidySdk = VidySdk.init(this, "samplepost", false, new VidyCallback() {
+		@Override
+		public void onSuccess(VidyState vidyState) {
+			if(vidyState == VidyState.INITIALIZED) {
+				vidySdk.postUpdate();
+			}
+
+		}
+
+		@Override
+		public void onFailure(VidyError vidyError) {
+
+		}
+	});
 }
 ```
 ## Output
