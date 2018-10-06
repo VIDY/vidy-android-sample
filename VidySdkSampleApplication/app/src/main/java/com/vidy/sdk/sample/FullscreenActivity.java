@@ -26,8 +26,6 @@ public class FullscreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        getLifecycle();
-
         setContentView(R.layout.activity_fullscreen);
 
         VidySdk.activate(this, "samplepost", false, new VidyCallback() {
